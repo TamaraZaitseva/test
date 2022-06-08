@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>table</title>
+    <style type="text/css">
+    	table{
+    		border: double 3px red;
+    		width: 600px;
+    		border-collapse: separate;
+    	}
+    	th,td{
+    		border: solid 1px black;
+    		height: 0,8 cm;
+    	}
+    	tr:nth-child(even){
+    		background-color: lightgray;
+    	}
+    	tr:hover{
+    		background-color: gold;
+    	}
+    	td:hover{
+    		color: black;
+    		background-color: lightcoral;
+    	}
+    	caption{
+    		font-size: 40px;
+    		color: lightgreen;
+    	}
+    	p{
+    		background-color: lightblue;
+    		font-size: 30px;
+    		text-align: center;
+    	}
+    </style>
+</head>
+<body>
+<p>Ми вивчаємо таблиці</p>
+<table>
+	<caption>Таблиця кольорів HTML</caption>
+	<thead>
+		<tr><th>Color</th><th>Name</th><th>HEX</th><th>RGB</th></tr>
+	</thead>
+	<tbody>
+		<tr><td style="background-color: black;"></td><td>Black</td><td>#000000</td><td>(0,0,0)</td></tr>
+		<tr><td style="background-color: red;"></td><td>Red</td><td>#ff0000</td><td>(255,0,0)</td></tr>
+		<tr><td style="background-color: green;"></td><td>Green</td><td>#00ff00</td><td>(0,255,0)</td></tr>
+		<tr><td style="background-color: blue;"></td><td>Blue</td><td>#0000ff</td><td>(0,0,255)</td></tr>
+		<tr><td style="background-color: yellow;"></td><td>Yellow</td><td>#ffff00</td><td>(255,255,0)</td></tr>
+		<tr><td style="background-color: white;"></td><td>White</td><td>#ffffff</td><td>(255,255,255)</td></tr>
+		<tr><td style="background-color: violet;"></td><td>Violet</td><td>#8000ff</td><td>(128,0,255)</td></tr>
+		<tr><td style="background-color: maroon;"></td><td>Maroon</td><td>B00000</td><td>(176, 0, 0)</td></tr>
+	</tbody>
+</table>
+</body>
+</html>
